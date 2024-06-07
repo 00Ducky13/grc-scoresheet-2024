@@ -1,0 +1,240 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>GRC Scoresheet</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+        <section id="mainBox" class="mainBox">
+            <section id="score" class="scoreBox">
+                0
+            </section>
+            <section id="resetWrap" class="controlBox">
+                <button id="reset">
+                    Click Here to Reset Score
+                </button>
+                <section id="error">
+                    Error Text Here
+                </section>
+            </section>
+            <section id="m1" class="missionBox">
+                <section id="m1Name" class="missionNameBox">
+                    Mission 1
+                </section>
+                <section id="m1Desc" class="missionDescBox">
+                    <section id="m1Part1Desc" class="box">
+                        Astronaut is completely in the rocket
+                    </section>
+                    <section id="m1Part2Desc" class="box">
+                        BOTH astronauts are completely in the rocket
+                    </section>
+                </section>
+                <section id="m1Score" class="missionScoreBox">
+                    <section id="m1Part1Score" class="box">
+                        <select id="m1Part1Num">
+                            <option selected=true value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </section>
+                    <section id="m1Part2Score" class="box">
+                        <input type="checkbox" id="m1Part2Check">
+                    </section>   
+                </section>
+            </section>
+            <section id="m2" class="missionBox">
+                <section id="m2Name" class="missionNameBox">
+                    Mission 2
+                </section>
+                <section id="m2Desc" class="missionDescBox">
+                    <section id="m2Part1Desc" class="box">
+                        Robot followed the line & drove over 1 asteroid
+                    </section>
+                    <section id="m2Part2Desc" class="box">
+                        Robot followed the line & drove over BOTH asteroids
+                    </section>
+                </section>
+                <section id="m2Score" class="missionScoreBox">
+                    <section id="m2Part1Score" class="box">
+                        <input type="checkbox" id="m2Part1Check">
+                    </section>
+                    <section id="m2Part2Score" class="box">
+                        <input type="checkbox" id="m2Part2Check">
+                    </section>   
+                </section>
+            </section>
+            <section id="m3" class="missionBox">
+                <section id="m3Name" class="missionNameBox">
+                    Mission 3
+                </section>
+                <section id="m3Desc" class="missionDescBox">
+                    <section id="m3Part1Desc" class="box">
+                        Hovercraft is touching the platform & the mat
+                    </section>
+                    <section id="m3Part2Desc" class="box">
+                        Hovercraft is completely on the platform
+                    </section>
+                </section>
+                <section id="m3Score" class="missionScoreBox">
+                    <section id="m3Part1Score" class="box">
+                        <input type="checkbox" id="m3Part1Check">
+                    </section>
+                    <section id="m3Part2Score" class="box">
+                        <input type="checkbox" id="m3Part2Check">
+                    </section>   
+                </section>
+            </section>
+            <section id="m4" class="missionBox">
+                <section id="m4Name" class="missionNameBox">
+                    Mission 4
+                </section>
+                <section id="m4Desc" class="missionDescBox">
+                    <section id="m4Part1Desc" class="box">
+                        Martian passed completely through the portal
+                    </section>
+                    <section id="m4Part2Desc" class="box">
+                        Martian not on their UFO, but not through the portal
+                    </section>
+                    <section id="m4Part3Desc" class="box">
+                        All 5 Martians went through the portal
+                    </section>
+                </section>
+                <section id="m4Score" class="missionScoreBox">
+                    <section id="m4Part1Score" class="box">
+                        <select id="m4Part1Num">
+                            <option selected=true value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </section>
+                    <section id="m4Part2Score" class="box">
+                        <select id="m4Part2Num">
+                            <option selected=true value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </section> 
+                    <section id="m4Part3Score" class="box">
+                        <input type="checkbox" id="m4Part3Check">
+                    </section>  
+                </section>
+            </section>
+            <section id="m5" class="missionBox">
+                <section id="m5Name" class="missionNameBox">
+                    Mission 5
+                </section>
+                <section id="m5Desc" class="missionDescBox">
+                    <section id="m5Part1Desc" class="box">
+                        Telescope black line is on Red
+                    </section>
+                    <section id="m5Part2Desc" class="box">
+                        Telescope black line is on Yellow
+                    </section>
+                    <section id="m5Part3Desc" class="box">
+                        Both teams telescopes are on the same colour
+                    </section>
+                </section>
+                <section id="m5Score" class="missionScoreBox">
+                    <section id="m5Part1Score" class="box">
+                        <input type="checkbox" id="m5Part1Check">
+                    </section>
+                    <section id="m5Part2Score" class="box">
+                        <input type="checkbox" id="m5Part2Check">
+                    </section> 
+                    <section id="m5Part3Score" class="box">
+                        <input type="checkbox" id="m5Part3Check">
+                    </section>  
+                </section>
+            </section>
+            <section id="m6" class="missionBox">
+                <section id="m6Name" class="missionNameBox">
+                    Mission 6
+                </section>
+                <section id="m6Desc" class="missionDescBox">
+                    <section id="m6Part1Desc" class="box">
+                        Big planet is in its orbit
+                    </section>
+                    <section id="m6Part2Desc" class="box">
+                        Medium planet is in its orbit
+                    </section>
+                    <section id="m6Part3Desc" class="box">
+                        Small planet is in its orbit
+                    </section>
+                    <section id="m6Part4Desc" class="box">
+                        All 3 planets are in their correct orbit
+                    </section>
+                </section>
+                <section id="m6Score" class="missionScoreBox">
+                    <section id="m6Part1Score" class="box">
+                        <input type="checkbox" id="m6Part1Check">
+                    </section>
+                    <section id="m6Part2Score" class="box">
+                        <input type="checkbox" id="m6Part2Check">
+                    </section> 
+                    <section id="m6Part3Score" class="box">
+                        <input type="checkbox" id="m6Part3Check">
+                    </section>  
+                    <section id="m6Part4Score" class="box">
+                        <input type="checkbox" id="m6Part4Check">
+                    </section>
+                </section>
+            </section>
+            <section id="m7" class="missionBox">
+                <section id="m7Name" class="missionNameBox">
+                    Mission 7
+                </section>
+                <section id="m7Desc" class="missionDescBox">
+                    <section id="m7Part1Desc" class="box">
+                        The martian’s gift is completely in base
+                    </section>
+                </section>
+                <section id="m7Score" class="missionScoreBox">
+                    <section id="m7Part1Score" class="box">
+                        <input type="checkbox" id="m7Part1Check">
+                    </section>   
+                </section>
+            </section>
+            <section id="pen" class="missionBox">
+                <section id="penName" class="missionNameBox">
+                    Penalties
+                </section>
+                <section id="penDesc" class="missionDescBox">
+                    <section id="penPart1Desc" class="box">
+                        Penalties
+                    </section>
+                </section>
+                <section id="penScore" class="missionScoreBox">
+                    <section id="penPart1Score" class="box">
+                        <select id="penPart1Num">
+                            <option selected=true value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </section>  
+                </section>
+            </section>
+        </section>
+        <script src="scripts.js"></script>
+        
+    </body>
+
+</html>
