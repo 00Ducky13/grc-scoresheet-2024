@@ -98,10 +98,10 @@ m2p2.addEventListener("click", function(){
 
 m3p1.addEventListener("click", function(){
   if (m3p1.checked == true){
-    //if (m3p2.checked == true){
-    //    m3p2.checked = false;
-    //    score = score - 15;
-    //}
+    if (m3p2.checked == true){
+        m3p2.checked = false;
+        score = score - 15;
+    }
         score = score + 5;
         displayScore(score);
   } else {
@@ -112,10 +112,10 @@ m3p1.addEventListener("click", function(){
 });
 m3p2.addEventListener("click", function(){
   if (m3p2.checked == true){
-    //if (m3p1.checked == true){
-    //    m3p1.checked = false;
-    //    score = score - 5;
-    //}
+    if (m3p1.checked == true){
+        m3p1.checked = false;
+        score = score - 5;
+    }
         score = score + 15;
         displayScore(score);
   } else {
